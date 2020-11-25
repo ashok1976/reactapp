@@ -1,0 +1,61 @@
+{
+	"products":[
+	{"id":1001,"title":"DOCTOR EXTRA SOFT ",
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+		"price": 5000,
+		"availableSize":["XL","XXL"],
+		"images":"/images/images.jpg"
+	},
+	
+	{"id":1002,
+		"title":"SOLETHREADS",
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+		"price": 5000,
+		"availableSize":["XL","XXL"],
+		"images":"/images/images3.jpg"
+	},
+	{"id":1003,
+		"title":"DES TONGS",
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+		"price": 5000,
+		"availableSize":["XL","XXL"],
+		"images":"/images/images3.jpg"
+	},
+	{"id":1004,
+		"title":"SOLETHREADS",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+		"price": 500,
+		"availableSize":["M","XL"],
+		"images":"/images/images4.jpg"
+	},
+	{"id":1005,
+		"title":"SOLETHREADS ",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+		"price": 400,
+		"availableSize":["XL","XXL","P"],
+		"images":"/images/images5.jpg"
+	},
+	{"id":1006,
+		"title":"Proin mauris urna ",
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+		"price": 350,
+		"availableSize":["XL","XXL"],
+		"images":"/images/images1.jpg"
+	},{"id":1007,
+		"title":"Proin mauris urna ",
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+		"price": 600,
+		"availableSize":["XL","XXL"],
+		"images":"/images/images5.jpg"
+	},
+	{"id":1008,
+		"title":"Product ",
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+		"price": 420,
+		"availableSize":["XL","XXL"],
+		"images":"/images/images1.jpg"
+	}
+	
+	]
+
+}

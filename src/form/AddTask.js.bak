@@ -1,0 +1,44 @@
+import React from 'react';
+
+export class AllTask extends React.Component{ 
+
+	constructor(props){
+		super(props)
+		this.state = {
+				list : [],
+				taks : ''
+			}
+		}
+	handleChange = (event) =>{
+		this.setState({
+			[event.target.name]:event.target.value
+		})
+	}
+	const addTask = () => {
+		const newList = [...this.state.task];
+		newList.push(this.state.task);
+		this.setState({
+			list:newList
+		})
+	}
+
+	render(){
+		return ( 
+		  <>	     
+				<input type="text" name="task" onChange={this.handleChange} /> <button onClick={this.addTask}>Add Data</button>
+				{list.map((item,index) =>(
+					 <li key={index}> <span>{item}</span>			
+					  <button type="button" onClick={()=> handleRemove(item.id)}>
+						Remove
+					  </button>
+
+					</li>
+				))}
+
+
+			  </>
+			  );
+	}
+}
+
+export default Child;

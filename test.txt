@@ -1,4 +1,15 @@
 Ashok kumarx
 
 ashok.its1@gmail.com
-Ajay@panthari1 
+Ajay@-----------1 
+
+
+add files
+
+git add . 
+git commit -m "commint "
+git status
+git pull
+git push
+git pull --rebase
+git commit -a -m "MY MESSAGE HERE"

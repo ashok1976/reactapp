@@ -19,6 +19,11 @@ import PrivateRoute from './PrivateRoute'
 import Protected  from './Protected'
 import User  from './User'
 import UserDetails  from './UserDetails'
+import SiblingLanding  from './sibiling/SiblingLanding'
+import Thunks  from './thunk/thunk'
+import ReduxForms  from './redux/ReduxForm'
+import AccordionLanding  from './accordian/AccordionLanding'
+import SagaLanding  from './saga/SagaLanding'
 
 
 class AppRouting extends React.Component{
@@ -56,6 +61,11 @@ class AppRouting extends React.Component{
 				<Route path="/create"  component={Landing} />
 				<Route path="/user"  component={User} />
 				<Route path="/UserDetails/:id"  component={UserDetails} />
+				<Route path="/sibling"  component={SiblingLanding} />
+				<Route path="/thunks"  component={Thunks} />
+				<Route path="/reduxforms"  component={ReduxForms} />
+				<Route path="/accordion"  component={AccordionLanding} />
+				<Route path="/sagalanding"  component={SagaLanding} />
 			</Switch>
 		)
 	}

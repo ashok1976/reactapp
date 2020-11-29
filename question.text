@@ -1,0 +1,57 @@
+Full Name :? Ashok kumar
+
+Number : 7678140405,9810260933
+
+Email Id : ashok_web@yahoo.com
+
+Current Location : NCR
+
+Preferred Location : ?NCR
+
+Current Company : DB Corp Ltd
+
+Current Salary : 7.60
+
+Expected Salary : As per company
+
+Notice Period :? Immediately
+
+Skype Id : 9810260933
+
+ 
+
+Total Exp : 7years
+
+ReactJS exp :1+
+
+Redux exp :1+
+
+Flux exp :1+
+
+ Assume that you are introducing the code-splitting technique in your app by using the dynamic import() syntax.
+What will you do to make it compatible with Babel in ReactJS?
+
+You must ensure that Babel can parse the dynamic import syntax but not transform it. To do this you will need babel-plugin-syntax-dynamic-import.
+You must ensure that Babel can parse the dynamic import syntax and transform it. To do this you will need babel-plugin-syntax-dynamic-import.
+You must ensure that Babel can parse the dynamic import syntax but not transform it. To do this you will need babel-plugin-transform-code-split.
+You must ensure that Babel can parse the dynamic import syntax and transform it. To do this you will need babel-plugin-transform-code-split.
+
+
+
+function testhack() 
+  {
+      var hck = [];
+      for(var x = 0; x < 10; x++)
+      hck[x] = function() { return x; };
+      return hck;
+   }
+    var hck = testhack();
+    hck[5]();
+
+In ReactJS, which of the following methods is used to change the state of a component?
+
+
+forceUpdate
+makeStateChange
+setState
+All of thes

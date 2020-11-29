@@ -28,9 +28,7 @@ import {Link} from 'react-router-dom';
 	 
 	return ( 
 	<nav className="navbar navbar-expand-lg navbar-light bg-light">
-	  <a className="navbar-brand" href="#">Navbar</a>
-		  <div className="navbar-collapse" id="navbarNav">
-
+	    <div className="navbar-collapse" id="navbarNav">
 		  <ul className="navbar-nav">	
 			<li className="nav-item"><Link className="nav-link" to="/Products">Products</Link></li>
 			<li className="nav-item"><Link className="nav-link" to="/AddNames">AddNames</Link></li>
@@ -43,6 +41,10 @@ import {Link} from 'react-router-dom';
 			<li className="nav-item"><Link to='/login' className="nav-link">Login</Link><br/></li>
 			<li className="nav-item"><Link to='/create' className="nav-link">create Context</Link><br/></li>
 			<li className="nav-item"><Link to='/user/:id' className="nav-link">User</Link><br/></li>
+			<li className="nav-item"><Link to='/sibling' className="nav-link">Sibling </Link><br/></li>
+			<li className="nav-item"><Link to='/thunks' className="nav-link">Thunks </Link><br/></li>
+			<li className="nav-item"><Link to='/reduxforms' className="nav-link">Redux Form </Link><br/></li>
+			<li className="nav-item"><Link to='/news' className="nav-link">Accordion Form </Link><br/></li>
 		 </ul>
 		 </div>
 		 </nav>

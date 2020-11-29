@@ -8,6 +8,11 @@
   pointer-events: none;
 }
 
+.radiogroup{}
+.radiogroup .form-group{ display:inline-flex; align-items:center; margin:0 10px 0 0}
+.radiogroup .form-group .form-control{ display:inline;width:auto; padding:5px; font-size:14px; height:25px;line-height:25px}
+.radiogroup .form-group label{margin:0 8px 0 0  }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -28,6 +33,12 @@
 .App-link {
   color: #61dafb;
 }
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {

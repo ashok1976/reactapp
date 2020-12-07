@@ -106,7 +106,7 @@ const mapDispatchFromProps = dispatch =>{
 	return{
 	FetchData:()=> {dispatch(FetchThunkData())},
 	//myFetchData:()=> {dispatch(fetchData())}
-
+	//myFetchData :{() => dispatch(fetchData())}
 	//myFetchData :{() => dispatch(fetchData())}
 		
 		
